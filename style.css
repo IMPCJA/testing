@@ -1,0 +1,27 @@
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+h1 {
+	font-family: georgia;
+	font-size: 5rem;
+	border-bottom: 2px solid lightgoldenrodyellow;
+	border-right: 2px solid lightgoldenrodyellow;
+	width: 700px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #fffff0;
+	margin-top: 5px;
+}
+
+.rainbow-text {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, #FFE900, orange, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
